@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6f7cc86b76.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <title>Hotel</title>
+</head>
+
+<body>
+    <section class="hero-section" style="margin: 0px;">
+        <div class="hero-text">
+            <h1>Welcome to Paradise Hotel</h1>
+            <p style=" margin: 10px 0px; ">We Provide rooms at a very good price along with amenities to make
+                your living experience awesome</p>
+            <button class="book-button">Book</button>
+        </div>
+    </section>
+
+    <h1 class="about-heading">About Us</h1>
+    <section class="about-section">
+        <div class="about-us">
+            <p>Looking for a vacation to leave behind the hustle of everyday life and indulge in world-class hospitality
+                at exotic locations? Look no further than the leading & fastest growing hotel chain of Eastern India,
+                Hotel Paradise. Your unwinding days with us will be the perfect blend of leisure, comfort, convenience &
+                class.
+            </p>
+            <br>
+            <p> We are currently present at Puri, Mandarmoni, Kolaghat, Tarapith, Darjeeling, Taki & Sundarban to make
+                your well deserved vacation a truly unforgettable affair.</p>
+            <div class="know-more-container">
+                <button class="know-button">Know More...</button>
+            </div>
+        </div>
+
+        <div class="amenities">
+            <h3>Amenities we have:</h3>
+            <ul>
+                <li><i class="fa-solid fa-wifi"></i>High Speed Internet</li>
+                <li><i class="fa-solid fa-utensils"></i></i>Complementary Breakfast</li>
+                <li><i class="fa-solid fa-person-swimming"></i>Swimming Pool</li>
+                <li><i class="fa-solid fa-dumbbell"></i>Gym </li>
+                <li><i class="fa-solid fa-mug-hot"></i>Cafeteria</li>
+            </ul>
+        </div>
+    </section>
+    <h1 class="room-heading">Room Types</h1>
+    <section class="room-type-container">
+        <div class="room-images">
+            <img src="room.jpg" alt="room-image">
+        </div>
+        <div class="room-list">
+            <h4>Single Occupancy</h4>
+            <p> these rooms are assigned to one person or a couple. It may have one or more beds, but the size of the
+                bed depends on the hotel. Some single rooms have a twin bed, most will have a double, few will have a
+                queen bed.SROs are a form of affordable housing, in some cases for formerly or otherwise homeless
+                individuals.[4] SRO units are the least expensive form of non-subsidized rental housing, with median
+                rents even in New York City ranging from $450 to $705 per month in 2013.[5] The term is primarily used
+                in Canada and US.</p>
+            <h4>family Room</h4>
+            <p> a quad room is set up for four people to stay comfortably. This means the room will have two double
+                beds. Some, however, may be set up dormitory-style with bunks or twins, so check with the property to
+                make sure.In San Francisco, Starcity is converting unused parking garages, commercial spaces and offices
+                into single-room residential units, where tenants (tech professionals are the typical renter) get a
+                furnished bedroom and access to wifi, janitor services and common kitchens and lounges for $1,400 to
+                $2,400 per month, an approach that has been called "dorm living for grownups".[</p>
+            <h4>Duplex Room</h4>
+            <p>these rooms might be a bit bigger with slightly upgraded amenities or a nicer view. These rooms are
+                typically equipped for groups who need more space, like a couple or small family.In 2007, the musician
+                Beyoncé Knowles provided $1 million towards the building of a $4 million SRO facility in Houston called
+                Knowles-Temenos Place Apartments, which aim to provide supportive SRO housing for people trying to
+                overcome "personal and natural disasters". </p>
+        </div>
+    </section>
+    <div class="help-button">
+        <h4>Need Help?</h4>
+    </div>
+    <h2 class="form-heading">Fill the form for booking room</h2>
+    <section class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Your Full Name</label><br>
+                <input type="text" id="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Id</label><br>
+                <input type="text" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="booking-date">Date Of Booking</label> <br>
+                <input type="date" id="booking-date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="room-type">Select Room Type</label><br>
+                <select name="room-type" id="room-type" required>
+                    <option value="" selected disabled>Select...</option>
+                    <option value="single room">Single Room</option>
+                    <option value="family room">Family Room</option>
+                    <option value="duplex room">Duplex Room</option>
+                </select>
+            </div>
+            <input type="submit" value="Book">
+        </form>
+    </section>
+</body>
+</html>
